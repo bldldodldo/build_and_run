@@ -5,9 +5,9 @@ Jeu de plateau : règles, implémentation en python et création de trois bots.
 
 #### Liste des documents fournis
 
--  .pdf : présentation du jeu et ses règles.
--  .pdf : Implémentation et mise en place d'un premier bot naïf.
--  .pdf : Mise en place de deux bots en apprentissage, l'un par apprentissage des coups de l'adversaire, l'autre par sélection génétique.
+-  [bar.regles.pdf](bar.regles.pdf) : présentation du jeu et ses règles.
+-  [bar.implementation.pdf](bar.implementation.pdf) : implémentation et mise en place d'un premier bot naïf.
+-  [bar.botetapprentissage.pdf](bar.botetapprentissage.pdf) : mise en place de deux bots en apprentissage, l'un par apprentissage des coups de l'adversaire, l'autre par sélection génétique.
 
 
 - - -
