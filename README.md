@@ -8,6 +8,7 @@ Jeu de plateau : règles, implémentation en python et création de trois bots.
 -  [bar.regles.pdf](bar.regles.pdf) : présentation du jeu et ses règles.
 -  [bar.implementation.pdf](bar.implementation.pdf) : implémentation et mise en place d'un premier bot naïf.
 -  [bar.botetapprentissage.pdf](bar.botetapprentissage.pdf) : mise en place de deux bots en apprentissage, l'un par apprentissage des coups de l'adversaire, l'autre par sélection génétique.
+-  [build_and_run.py](build_and_run.py) : fichier python contenant tout le travail d'implémentation.
 
 
 - - -
@@ -53,3 +54,10 @@ Pour voir quelques illustrations, voir le document
 ## Bots
 
 L'implémentation du jeu ainsi que la création de trois bots pour le jeu sont présentées dans les documents listés au début du readme.
+
+- - -
+
+
+## Fichier du jeu
+
+Le fichier build_and_run.py contient l'implémentation complète ainsi que les programmes utilisés pour l'implémentation des trois bot.
