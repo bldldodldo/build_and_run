@@ -61,3 +61,9 @@ L'implémentation du jeu ainsi que la création de trois bots pour le jeu sont p
 ## Fichier du jeu
 
 Le fichier build_and_run.py contient l'implémentation complète ainsi que les programmes utilisés pour l'implémentation des trois bot.
+Il contient en particulier 4 fonctions permettant de mieux cerner le travail effectué.
+
+- `illustration_1` : fonction permettant de lancer une partie d'un joueur (humain) contre un autre.
+- `illustration_2` : fonction permettant de lancer une partie d'un joueur (humain) contre un bot naïf.
+- `illustration_3` : fonction permettant de lancer une partie d'un joueur (humain) contre le bot jouant le coup le plus populaire (premier bot en apprentissage).
+- `illustration_4` : fonction permettant de lancer une partie du bot ayant appris par selection génétique contre le bot naïf.
