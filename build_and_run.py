@@ -810,8 +810,8 @@ La fonction partie permet de lancer une partie entre deux "fonctions joueurs" (e
 n,p est la taille du terrain pour la partie.
 """
     terrain = [[0 for i in range(n)] for j in range(p)]
-    x1,y1 = 0,0
-    x2,y2 = (p-1),(n-1)
+    x1,y1 = 1,1
+    x2,y2 = (p-2),(n-2)
     tour = 0
     premierjoueur = 0
     mom1,mom2 = 1,1
@@ -845,12 +845,12 @@ n,p est la taille du terrain pour la partie.
                 premierjoueur = 0
             
     if premierjoueur <= 2:
-        if (x1,y1) == (p-1,n-1) :
+        if (x1,y1) == (p-1,n-1) or (x2, y2) == (p-1, n-1):
             print("le joueur 1 a gagné")
         else:
             print("le joueur 2 a gagné")
     else:
-        if (x2,y2) == (0,0) :
+        if (x2,y2) == (0,0) or (x1,y1) == (0,0):
             print("le joueur 2 a gagné")
         else:
             print("le joueur 1 a gagné")
@@ -1761,8 +1761,25 @@ def main():
     return None
 
 def illustration_1():
+    """ Fonction permettant de lancer une partie d'un joueur contre un autre."""
+    partie(4,6,joueur,joueur)
+    
+def illustration_2():
+    """ Fonction permettant de lancer une partie d'un joueur contre un bot naïf."""
+    partie(4,6,joueur,bot_1)
+    
+def illustration_3():
+    """ Fonction permettant de lancer une partie d'un joueur contre le premier bot
+en apprentissage (bot jouant le coup le plus populaire à chaque tour)
+"""
+    partie_learning(4,6)
+
+def illustration_4():
     """ Fonction montrant le jeu du bot en apprentissage par sélection génétique
-ayant appris à gagner contre bot_1 (bot naïf) via l'algorithme de sélection."""
+ayant appris à gagner contre bot_1 (bot naïf) via l'algorithme de sélection.
+le "j1" est le bot naïf.
+le "j2" est le bot ayant appris.
+"""
     pdj_en_7_pour_4_6 = [['G', [0, 3], 'G', [3, 3], 'H', [4, 2], 'G', [0, 2], 'G', [1, 2], 'H', [5, 0], 'H', [1, 2], 'D', [1, 2], 'H', [2, 3], 'D', [2, 1], 'D', [0, 2], 'H', [3, 3], 'D', [4, 3], 'G', [5, 2], 'G', [3, 0], 'H', [4, 2], 'H', [0, 3], 'D', [3, 0], 'D', [3, 0], 'H', [5, 0], 'H', [1, 3], 'H', [2, 1], 'D', [4, 0], 'D', [3, 3], 'B', [3, 2], 'H', [3, 3], 'D', [3, 1], 'D', [5, 1], 'DET', [4, 0], 'B', [5, 0]], 7]
     partie_genetique(4, 6, bot_1, coup_bot_dl, pdj_en_7_pour_4_6, 30)
 
