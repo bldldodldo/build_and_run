@@ -48,7 +48,7 @@ Il est interdit de construire sur les camps des joueurs. Si un joueur passe sur 
 `momentum` n’a pas de limite. On ne peut pas se déplacer de moins de `momentum` cases (ou de moins de la partie
 entière inférieure de `momentum`/2 pour les déplacements en diagonale). La valeur d’une case n’a pas de limite.
 
-Pour voir quelques illustrations, voir le document 
+Pour voir quelques illustrations, voir le document [bar.regles.pdf](bar.regles.pdf)
 
 - - -
 
