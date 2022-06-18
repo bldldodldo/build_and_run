@@ -62,7 +62,7 @@ L'implémentation du jeu ainsi que la création de trois bots pour le jeu sont p
 
 ## Fichiers du jeu
 
-Le fichier build_and_run.py contient l'implémentation complète ainsi que les programmes utilisés pour l'implémentation des trois bot.
+Le fichier build_and_run.py contient l'implémentation complète du jeu ainsi que les programmes utilisés pour l'implémentation des trois bot.
 Il contient en particulier 4 fonctions permettant de mieux cerner le travail effectué.
 
 - `illustration_1` : fonction permettant de lancer une partie d'un joueur (humain) contre un autre.
