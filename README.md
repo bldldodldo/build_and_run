@@ -9,7 +9,7 @@ Jeu de plateau : règles, implémentation en python et création de trois bots.
 -  [bar.implementation.pdf](bar.implementation.pdf) : implémentation et mise en place d'un premier bot naïf.
 -  [bar.botetapprentissage.pdf](bar.botetapprentissage.pdf) : mise en place de deux bots en apprentissage, l'un par apprentissage des coups de l'adversaire, l'autre par sélection génétique.
 -  [build_and_run.py](build_and_run.py) : fichier python contenant tout le travail d'implémentation.
--  [tableau](tableau) : fichier python contenant les données utilisées par le premier bot en apprentissage (jouant les coups les plus populaires).
+-  [tableau](tableau) : fichier contenant les données utilisées par le premier bot en apprentissage (jouant les coups les plus populaires).
 
 
 
