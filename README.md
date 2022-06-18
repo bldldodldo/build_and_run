@@ -70,4 +70,4 @@ Il contient en particulier 4 fonctions permettant de mieux cerner le travail eff
 - `illustration_3` : fonction permettant de lancer une partie d'un joueur (humain) contre le bot jouant le coup le plus populaire (premier bot en apprentissage).
 - `illustration_4` : fonction permettant de lancer une partie du bot ayant appris par selection génétique contre le bot naïf.
 
-Ces illustrations ont été construites avec une taille de plateau fixée (6 lignes, 4 colones) mais aucune taille de plateau n'est encore fixée dans les règles.
+Ces illustrations ont été construites avec une taille de plateau fixée (6 lignes, 4 colonnes) mais aucune taille de plateau n'est encore fixée dans les règles.
