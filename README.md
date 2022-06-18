@@ -29,7 +29,7 @@ doit défendre son camp : si quiconque, y compris lui-même, rentre dans le camp
 possède un `momentum` et lorsqu'il se déplace, se déplace de exactement `momentum` cases jusqu’à rencontrer un obstacle.
 Quelques règles supplémentaires : 
 
-> _Se déplacer en diagonale demande 2 de_ `momentum` _par case diagonale parcourue (partie entière inférieure de_ `momentum` _/2 cases parcourues). Ceci diminue le_ `momentum` _de 1. Se déplacer en diagonale d’une case n’est pas se
+> _Se déplacer en diagonale demande 2 de_ `momentum` _par case diagonale parcourue (partie entière inférieure de_ `momentum` _/2 cases parcourues). Ceci diminue le_ `momentum` _de 1. Se déplacer en diagonale d’une case n’est pas équivalent à se
 déplacer dans une direction d’une case puis dans la direction orthogonale d’une case, c’est un déplacement spécial._
 
 > _Se déplacer verticalement ou horizontalement augmente le_ `momentum` _de 1. Si un mur bloque l’entièreté du
