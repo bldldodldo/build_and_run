@@ -40,7 +40,7 @@ inférieure à 0. Une case de valeur 0 est une case vide. Détruire ramène le `
 
 > _Deux joueurs ne peuvent pas partager la même case._
 
-> _Le premier joueur d’un tour alterne : si un tour commence par le joueur 1, le suivant par le joueur 2._
+> _Le premier joueur d’un tour alterne : si un tour commence par le joueur 1, le suivant commence par le joueur 2._
 
 Complément d’information :
 
