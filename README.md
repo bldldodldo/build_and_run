@@ -36,7 +36,7 @@ déplacer dans une direction d’une case puis dans la direction orthogonale d�
 mouvement, le_ `momentum` _augmente de 3._
 
 > _« Détruire un mur » se définit par « diminuer de 1 la valeur d’une case ». Une case ne peut pas avoir une valeur
-inférieure à 0. Une case de valeur 0 est une case vide. Détruire ramène le momentum à la valeur 1._
+inférieure à 0. Une case de valeur 0 est une case vide. Détruire ramène le `momentum` à la valeur 1._
 
 > _Deux joueurs ne peuvent pas partager la même case._
 
